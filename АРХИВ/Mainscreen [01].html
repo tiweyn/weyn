@@ -1,0 +1,83 @@
+<!DOCTYPEhtml>
+<html>
+<html lang="ru">
+	<head>
+		<title>WEY'N</title>     																				<!-- Название вкладки -->
+		<link rel="icon" href="Image\Icon.png" type="image/png">    											<!-- Иконка вкладки -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<script src="JS/Price.js" defer></script>		
+		
+<style>
+	body {																										<!-- Настройки фона -->
+		font-size: 18px;
+		background: black;
+		background-image: url(Image/Background01.png);
+		background-repeat: no-repeat;
+		<!--position:fixed;-->
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: center;
+	}
+	@font-face {
+		font-family: 'DaMiOne';
+		src: url('Fonts/DaMiOne-Regular.eot'); /* IE */
+		src: url('Fonts/DaMiOne-Regular.woff2') format('woff2'),
+			 url('Fonts/DaMiOne-Regular.woff') format('woff'),
+			 url('Fonts/DaMiOne-Regular.ttf') format('truetype');
+	}
+	h2, h3 {
+		font-family: 'DaMiOne';
+    }
+	a.text:active, /* активная/посещенная ссылка */
+	a.text:hover,  /* при наведении */
+	a.text {
+	  text-decoration: none;
+	  color: #666;
+	}
+	.parent {
+		display: grid;                         
+		place-items: center;                       
+	}
+	
+</style>
+	</head>
+	<body>
+		<div class="container">
+		
+		
+			<div style="margin-top: 10px;" class="parent">													<!-- Логотип -->
+				<img src="Image\FinalLogo.png" width="450" alt="Logo"> 
+			</div>
+			
+			
+			
+					<div style="margin-top: 25px;" class="parent">													<!-- Футболка -->
+						<a href= "./Product [02].html" class="text">
+							<img src="Image\T-shirt.png" width="500" alt="T-shirt">
+						</a>
+					</div>
+					
+					<div class="parent">
+						<a href= "./Product [02].html" class="text">
+							<h2 style= "color: white; text-align: center; margin-top: 15px;">THE FIRST T-SHIRT</h2>			<!-- Текст к товару -->
+							<h2 id="price" style= "color: white; text-align: center; margin-top: 15px;">Р</h2>
+						</a>
+					</div>
+			
+			
+			
+			<div style="margin-bottom: 100px" class="parent">
+				<h3 style= "color: white; text-align: center; margin-top: 85px;">ОСТАЛИСЬ ВОПРОСЫ?</h3>			<!-- Связь -->
+				<h3 style= "color: white; text-align: center; margin-top: 15px;">СВЯЖИТЕСЬ С НАМИ</h3>
+				<a href="https://t.me/tiweyn">
+					<img src="Image\VectorTG.png" width="50" alt="Telegram" style="margin-top: 15px;">
+				</a>
+			</div>
+
+
+		</div>
+	</body>
+</html>
